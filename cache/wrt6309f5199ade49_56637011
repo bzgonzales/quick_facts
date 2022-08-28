@@ -1,0 +1,624 @@
+<?php
+/* Smarty version 3.1.38, created on 2022-08-27 12:42:33
+  from 'C:\xampp\htdocs\quick_facts\templates\index.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.38',
+  'unifunc' => 'content_6309f5199a77a6_68071810',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'd78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\quick_facts\\templates\\index.tpl',
+      1 => 1661596953,
+      2 => 'file',
+    ),
+    'cea201d760aa86c2b7a284836213b5845abe9345' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\quick_facts\\templates\\header.tpl',
+      1 => 1661596351,
+      2 => 'file',
+    ),
+    'b33cd5e2113930b2d5e9a73bc01f5aaa6a37afa1' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\quick_facts\\templates\\footer.tpl',
+      1 => 1661596243,
+      2 => 'file',
+    ),
+  ),
+  'cache_lifetime' => 120,
+),true)) {
+function content_6309f5199a77a6_68071810 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<HTML>
+<HEAD>
+<TITLE>foo - <br />
+<b>Notice</b>:  Undefined index: Name in <b>C:\xampp\htdocs\quick_facts\templates_c\cea201d760aa86c2b7a284836213b5845abe9345_0.file.header.tpl.cache.php</b> on line <b>29</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\cea201d760aa86c2b7a284836213b5845abe9345_0.file.header.tpl.cache.php</b> on line <b>29</b><br />
+</TITLE>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="css/custom.css">
+
+</HEAD>
+<BODY bgcolor="#ffffff">
+
+<div id="content">
+    
+    <header>
+        <div class="header-container">
+            <div class="sticky-wrapper">
+                <div class="header wrapped">
+                    <button class="toggler">
+                        <span></span>
+                    </button>
+                    <div class="wrapper">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="//www.villaaiko.com/resources/aiko/images/xlogo-villa-aiko.png.pagespeed.ic.957pMCvYj-.webp" alt="" />
+                            </a>
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                
+                                    <li class="">
+                                        <a href="#">Homepage</a>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">About</a>
+                                                                                    <ul class="subnav">
+                                                                                                    <li>
+                                                        <a href="#">About Villa</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Explore This</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Quick Facts</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">About Elite Havens</a>
+                                                    </li>
+                                                                                            </ul>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Gallery</a>
+                                                                                    <ul class="subnav">
+                                                                                                    <li>
+                                                        <a href="#">Photo Gallery</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Floorplan</a>
+                                                    </li>
+                                                                                            </ul>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Location</a>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Experience</a>
+                                                                                    <ul class="subnav">
+                                                                                                    <li>
+                                                        <a href="#">Staff</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Dining</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Families</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">SPA</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Concierge</a>
+                                                    </li>
+                                                                                            </ul>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Review</a>
+                                                                                    <ul class="subnav">
+                                                                                                    <li>
+                                                        <a href="#">Reviews</a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="#">Press</a>
+                                                    </li>
+                                                                                            </ul>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Rates</a>
+                                        
+                                    </li>
+                                        
+                                
+                                    <li class="">
+                                        <a href="#">Enquire</a>
+                                        
+                                    </li>
+                                        
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+</div>
+    <section class="hero">
+        <img src="//www.villaaiko.com/resources/aiko/headers/xVilla,P20Aiko,P20-,P20Upstairs,P20open-living.jpg.pagespeed.ic.TtlOYcKXw7.webp" data-src="//www.villaaiko.com/resources/aiko/headers/xVilla,P20Aiko,P20-,P20Upstairs,P20open-living.jpg.pagespeed.ic.TtlOYcKXw7.webp" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="//www.villaaiko.com/resources/aiko/headers/mobile/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 767w, //www.villaaiko.com/resources/aiko/headers/small/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 1400w, //www.villaaiko.com/resources/aiko/headers/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 1920w" alt="Villa Aiko - Upstairs open-living" class="new-parallax" data-pagespeed-url-hash="2446007092" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" sizes="(min-width: 1281px) 1920px, auto" srcset="//www.villaaiko.com/resources/aiko/headers/mobile/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 767w, //www.villaaiko.com/resources/aiko/headers/small/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 1400w, //www.villaaiko.com/resources/aiko/headers/Villa%20Aiko%20-%20Upstairs%20open-living.jpg 1920w">
+    </section>
+
+    <section class="quickfacts">
+        <div class="container">
+            <h1 class="entry-title"><span>Quick</span> Facts</h1>             
+            <div class="main-content">
+                                
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>LOCATION</strong>
+                            <p>Jimbaran, Bali, Indonesia.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>COMMUNICATION</strong>
+                            <p>WiFi internet; telephone for local calls (IDD additional charge); printer; computer.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>NEIGHBOURHOOD</strong>
+                            <p>Jimbaran Beach (800m); Jimbaran Town (1km); New Kuta Golf (4km); Nusa Dua (7km).</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>ENTERTAINMENT</strong>
+                            <p>iPod docking stations; 6 satellite televisions; 2 DVD players and movies; books; games.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>CAPACITY</strong>
+                            <p>8 people (4 king-bedded rooms). 2 additional beds available on request (for an additional charge).</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>FOR FAMILIES</strong>
+                            <p>Playroom with DVD library, books, games and doll's house.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>LIVING AREAS</strong>
+                            <p>Indoor dining for 10; 2 indoor lounges; rooftop lounge and dining for 6; playroom; library.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>TRANSPORT</strong>
+                            <p>On request, your villa manager can arrange for a car and driver to be made available for an additional charge of USD35++/day (eight consecutive hours, excluding petrol).  Please give 24 hours prior notice.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>POOL</strong>
+                            <p>18m x 6m. 1.4m-1.6m depth.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>ADDITIONAL FACILITIES</strong>
+                            <p>Full back-up diesel powered electrical generator; safety boxes in all bedrooms; barbecue.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>STAFF</strong>
+                            <p>Villa manager; cook; pool attendant/gardener; butler; housekeepers; nighttime security guard.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>PROPERTY AREA</strong>
+                            <p>650 sqm (villa); 1,100 sqm (land).</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>DINING</strong>
+                            <p>A wide variety of Western and Asian dishes. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p>
+                        </div>
+                                            <div class="item icon<br />
+<b>Notice</b>:  Undefined index: key in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>49</b><br />
+">
+                            <strong>MANAGED & MARKETED BY</strong>
+                            <p><a href="#">The Elite Havens Group.</a></p>
+                        </div>
+                                                </div>       
+        </div>
+    </section>
+
+</div> 
+<PRE>
+
+                    Title: 
+        
+    The current date and time is 2022-08-27 12:42:33
+
+    The value of global assigned variable $SCRIPT_NAME is /quick_facts/index.php
+
+    Example of accessing server environment variable SERVER_NAME: localhost
+
+    The value of {$Name} is <b><br />
+<b>Notice</b>:  Undefined index: Name in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>82</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>82</b><br />
+</b>
+
+variable modifier example of {$Name|upper}
+
+<b><br />
+<b>Notice</b>:  Undefined index: Name in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>87</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'value' of non-object in <b>C:\xampp\htdocs\quick_facts\templates_c\d78e1ff3119d6f6ebe3c6de08285ab44e2bcfc8c_0.file.index.tpl.cache.php</b> on line <b>87</b><br />
+</b>
+
+
+An example of a section loop:
+
+            none
+    
+    An example of section looped key values:
+
+        <p>
+
+        testing strip tags
+        
+</PRE>
+
+This is an example of the html_select_date function:
+
+<form>
+    <select name="Date_Month">
+<option value="01">January</option>
+<option value="02">February</option>
+<option value="03">March</option>
+<option value="04">April</option>
+<option value="05">May</option>
+<option value="06">June</option>
+<option value="07">July</option>
+<option value="08" selected="selected">August</option>
+<option value="09">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option>
+</select>
+<select name="Date_Day">
+<option value="1">01</option>
+<option value="2">02</option>
+<option value="3">03</option>
+<option value="4">04</option>
+<option value="5">05</option>
+<option value="6">06</option>
+<option value="7">07</option>
+<option value="8">08</option>
+<option value="9">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27" selected="selected">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="Date_Year">
+<option value="1998">1998</option>
+<option value="1999">1999</option>
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+</select>
+</form>
+
+This is an example of the html_select_time function:
+
+<form>
+    <select name="Time_Hour">
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12" selected="selected">12</option>
+</select>
+<select name="Time_Minute">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42" selected="selected">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select>
+<select name="Time_Second">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33" selected="selected">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select>
+<select name="Time_Meridian">
+<option value="am">AM</option>
+<option value="pm" selected="selected">PM</option>
+</select>
+</form>
+
+This is an example of the html_options function:
+
+<form>
+    <select name=states>
+        <option value="NY">New York</option>
+<option value="NE" selected="selected">Nebraska</option>
+<option value="KS">Kansas</option>
+<option value="IA">Iowa</option>
+<option value="OK">Oklahoma</option>
+<option value="TX">Texas</option>
+
+    </select>
+</form>
+
+    <div class="footer-content">
+        <section>
+            <div class="full-container">
+                <a href="#" target="_blank">Book now</a>
+                <a href="#">Availability</a>
+            </div>
+        </section>
+    </div>
+    <footer id="main-footer">
+
+        <section>
+            <div class="container">
+                <div class="column">
+                    <h3>Contact us</h3>
+
+                    <ul class="phone-numbers">
+                        <li><a href="tel:+61861020160"><span>Australia</span> +61 8 6102 0160</a></li>
+                    </ul>
+                    <p class="enquiries">
+                        For press and media enquiries please contact us <a href="/general-enquiries.html">here</a>
+                    </p>
+                </div>
+                <div class="column">
+                    <h3>Follow us</h3>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/elitehavens?ref_type=bookmark" class="socmed fb" target="_blank" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a href="https://www.pinterest.com/elitehavensall/" class="socmed pt" target="_blank" title="Pinterest"><i class="fab fa-pinterest" aria-hidden="true"></i></a><a href="https://www.instagram.com/elitehavens" class="socmed in" target="_blank" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a><a href="https://www.twitter.com/elitehavens" class="socmed tw" target="_blank" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a><a href="https://www.linkedin.com/company/elite-havens" class="socmed li" target="_blank" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a><a href="https://www.youtube.com/channel/UC2fLFvrddDBUVvjhrRUrEUg" class="socmed yt" target="_blank" title="Youtube"><i class="fab fa-youtube" aria-hidden="true"></i></a><a href="https://www.tiktok.com/@elitehavens" class="socmed tiktok" target="_blank" title="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                    </div>
+                    <address>
+                    Villa Aiko<br>
+                    Jalan Lalang Temu, <span>Banjar Mekar Sari</span>, <span>Jimbaran</span>, <span>Kuta Selatan</span>, <span>Kabupaten Badung</span>, <span>Bali</span>, <span>Indonesia 80361 </span></address>
+                    <ul class="footer-nav">
+                        <li><a href="/links.html">Links</a></li>
+                        <li><a href="/sitemap.html">Sitemap</a></li>
+                        <br>
+                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
+                    </ul>
+                    <p class="copyright">
+                        Copyright © 2022 Villa Aiko
+                    </p>
+                </div>
+                <div class="column">
+                    <a href="https://www.elitehavens.com/aboutus.aspx" target="_blank">
+                    <img data-src="/resources/common/images/xeh-logo.png.pagespeed.ic.pJrgE4ruC4.webp" class="footer-logo lazyloaded" src="/resources/common/images/xeh-logo.png.pagespeed.ic.pJrgE4ruC4.webp">
+                    </a>
+                    <p class="marketed">
+                        Exclusively Managed and Marketed by <a href="https://www.elitehavens.com/" target="_blank">the Elite Havens Group</a>
+                    </p>
+                    <div id="chse_badge">
+                        <img src="/resources/common/images/xchse-badge.png.pagespeed.ic.DaZ8FNldhs.webp" data-pagespeed-url-hash="859613008" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</BODY>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</HTML>
+<?php }
+}

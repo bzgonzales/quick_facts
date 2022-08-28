@@ -1,0 +1,509 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');$i: !important
+
+$border_color: #ccc
+$nocolor: transparent
+
+$active: #393939
+$inactive: #e1e1e1
+$color: #131313
+$color2: #003768
+
+@function image($image)
+    @return url('../image/' + $image)
+
+@function autosize($min,$max) 
+    @return calc(#{$min}px + (#{$max} - #{$min}) * (100vw - 320px) / (1920 - 320))
+
+@mixin bg-img($img,$w,$h)
+    background: 
+        repeat: no-repeat
+        size: cover
+        image: image($img)$i
+    width: $w
+    height: $h 
+
+
+
+a 
+  -webkit-transition: all 0.3s ease 0s
+  -moz-transition: all 0.3s ease 0s
+  -o-transition: all 0.3s ease 0s
+  transition: all 0.3s ease 0s
+
+iframe 
+  border: 0
+
+a,
+a:focus,
+a:hover 
+  text-decoration: none
+  outline: 0
+
+body
+    margin: 0
+    font-family: 'PT Sans', sans-serif $i
+    font-size: 16px
+    font-weight: 300
+    color: $color
+    zoom: 0.9
+.container 
+    max-width: 1170px
+    width: 95%
+    margin: 0 auto
+
+a
+    text-decoration: none
+    color: $color
+h1,h2,h3,h4,h5,h6
+    font-family: 'Frank Ruhl Libre', serif
+
+
+#header
+    position: fixed
+    left: 0
+    top: 0
+    right: 0
+    transition: all 0.5s
+    z-index: 997
+    width: 100%
+    background: #fff
+    display: flex
+    justify-content: center
+    padding-bottom: 20px
+    padding-top: 13px
+    border-bottom: 1px solid #f1f1f1
+    *
+        transition: all 0.5s
+    .nav-flex
+        position: relative
+        width: 100%
+        display: block
+        margin: 0 auto
+
+    .logo
+        text-align: center
+        height: 76px
+        a
+            display: inline-block
+            position: relative
+            z-index: 1
+            img 
+                max-height: 76px
+                -webkit-backface-visibility: hidden
+                backface-visibility: hidden
+
+    nav.nav
+        display: flex
+        align-items: center
+        justify-content: center
+        ul        
+            position: absolute
+            display: flex
+            align-items: center
+            padding: 0
+            margin-top: 0
+            
+            li
+                display: inline-block
+                margin-left: 45px
+                position: relative
+
+                &:first-child
+                    margin-left: 0
+                &:nth-of-type(4)
+                    margin-right: 339px
+                a
+                    text-transform: uppercase
+                    font-size: 16px
+                    color: $color
+                    &:hover
+                        color: $color2
+                .subnav
+                    display: none
+                    justify-content: center
+                    flex-direction: column
+                    align-items: flex-start
+                    flex-wrap: wrap
+                    background: #fff
+                    padding-top: 20px
+                    >li
+                        margin-left: 0
+                        margin-right: 0
+                        flex: 0 0 100%
+                        width: 100%
+                        a
+                            padding: 8px
+                            min-width: 153px
+                            display: block
+                            transition: 0.5s
+                        &:hover a
+                            background: $color2
+                            color: #fff
+                            transition: 0.5s
+        @media (max-width: 1120px)
+            ul li
+                margin-left: autosize(20,45)
+                &:nth-of-type(4)
+                    margin-right: autosize(150,400)
+        @media (max-width: 868px)
+            padding-bottom: 43px
+            ul 
+                margin-bottom: 0
+                margin-top: 60px
+                li
+
+                    &:nth-of-type(4)
+                        margin-right: 0
+    
+    &.header-scrolled
+        padding-bottom: 5px$i
+        *
+            transition: all 0.5s
+        .logo 
+            height: 47px
+            overflow: hidden
+            a img 
+                    max-height: 55px
+        .nav >ul
+            margin-top: -30px
+        @media (max-width: 868px)
+            padding-bottom: 43px
+            .nav>ul 
+                margin-top: 44px
+
+.hero img
+    width: 100%
+
+section
+    &.quickfacts
+        margin-bottom: autosize(20,50)
+        .entry-title
+            color: $color2
+            text-align: left
+            margin-bottom: 15px
+            font-size: autosize(35,48)
+            font-weight: 400
+            text-transform: uppercase
+            span
+                color: $color
+        .main-content
+            // display: flex
+            // justify-content: space-between
+            // align-items: flex-start
+            // flex-wrap: wrap
+            display: grid
+            grid-template-columns: auto auto
+            grid-gap: 0 40px
+            .item
+                flex: 0 0 45%
+                display: flex
+                justify-content: flex-start
+                align-items: flex-start
+                margin-bottom: 20px
+                img
+                    flex: 0 0 10%
+                    height: auto
+                    margin-right: 3%
+                    margin-top: 5px
+                .desc
+                    position: relative
+                    flex: 0 0 86%
+                    h3
+                        font-size: 25px
+                        text-transform: uppercase
+                        font-weight: 400
+                        margin-top: 0
+                        margin-bottom: 10px
+                    p
+                        margin: 0
+            @media (max-width: 768px)
+                grid-template-columns: auto
+
+.footer-content
+    background: #f1f0f0
+    
+    .buttons
+        padding-top: 5px
+        padding-bottom: 5px
+        position: relative
+        .main-buttons,.navi-buttons
+            display: flex
+            align-items: center
+            justify-content: center
+        .main-buttons
+            a
+                font-size: autosize(18,25)
+                background: $color
+                padding: 9px 10px 10px
+                min-width: autosize(100,225)
+                margin: 10px
+                text-align: center
+                color: #fff
+                transition: 0.6s
+                text-transform: uppercase
+                &:hover
+                    background: $color2
+        .navi-buttons
+            justify-content: space-between
+            height: 0
+            a
+                position: absolute
+                top: 0
+                bottom: 0
+                margin: auto
+                height: 30px
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                font-size: 17px
+                color: $color
+                text-transform: uppercase
+                &.prev
+                    left: 0
+                    svg
+                        margin-right: 5px
+                &.next
+                    right: 0
+                    svg
+                        margin-left: 5px
+                svg
+                    width: 16px
+                    height: 16px
+                    color: $color2
+                    background: #fff
+                    padding: 10px
+                    border-radius: 50%
+                    transition: 0.6s
+                &:hover
+                    svg
+                        color: #fff
+                        background: $color2
+                        transition: 0.6s
+            @media (max-width: 894px)
+                height: auto
+                margin-bottom: 10px
+                a
+                    position: static
+                    margin: unset
+                    font-size: autosize(10,25)
+
+
+#main-footer
+    font-size: 13px
+    .container
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        position: relative
+        flex-wrap: wrap
+        h3
+            font-size: autosize(20,26)             
+            font-family: "PT Sans", serif
+            font-weight: 300
+            text-transform: uppercase
+            margin-bottom: 15px
+        .column
+            flex: 0 0 34%
+            ul
+                list-style: none
+                padding: 0
+                li
+                    display: inline-block
+                    a
+                        line-height: 22px
+                        transition: 0.6s
+                        span
+                            width: 120px
+                            display: inline-block
+                        &:hover
+                            color: $color2
+                            text-decoration: underline
+                            transition: 0.6s
+            .social-media
+                margin-bottom: 20px
+                a
+                    height: 29px
+                    width: 29px
+                    margin: 0 0 0 2px
+                    background: $color
+                    color: #fff
+                    border-radius: 50%
+                    display: inline-flex
+                    justify-content: center
+                    align-items: center
+                    transition: 0.7s
+                    &:hover
+                        background: $color2
+                        transition: 0.5s
+            address
+                font-style: unset$i
+                max-width: 314px
+                margin-right: 0
+                margin-left: auto
+                margin-bottom: autosize(20,36)
+            .footer-nav
+                margin-bottom: 0
+            .copyright
+                margin-top: 0
+            &:first-child
+                text-align: left
+            &:nth-child(2)
+                text-align: right
+            &:last-child
+                position: absolute
+                left: 0
+                right: 0
+                bottom: 0
+                margin: auto
+                text-align: center
+                width: 19%
+                img
+                    width: 156px
+            @media (max-width: 674px)
+                flex: 0 0 48%
+                &:last-child
+                    position: static
+            @media (max-width: 481px)
+                flex: 0 0 100%
+                * 
+                    text-align: center
+                .contact-numbers
+                    width: 230px
+                    margin: 0 auto
+                    li
+                        width: 100%
+                    a
+                        text-align: left$i
+                        display: inline-block
+                        width: 100%
+                        span
+                            text-align: left$i
+                address
+                    margin-left: auto
+                    margin-right: auto
+
+                
+
+@media (max-width: 612px)
+    #mobile-nav-toggle 
+        display: inline$i
+    #header nav.nav
+        display: none$i
+    
+/* Mobile Nav Toggle */
+#mobile-nav-toggle 
+    position: fixed
+    right: 15px
+    z-index: 999
+    top: 13px
+    border: 0
+    background: rgba($color,0.7)
+    font-size: 24px
+    display: none
+    transition: all 0.4s
+    outline: none
+    cursor: pointer
+    padding-top: 5px
+    border-radius: 5px
+    i 
+        color: #fff
+        font-weight: 900
+
+
+/* Mobile Nav Styling */
+#mobile-nav 
+    position: fixed
+    top: 0
+    padding-top: 18px
+    bottom: 0
+    z-index: 998
+    background: rgba(0, 0, 0, 0.8)
+    left: -260px
+    width: 260px
+    overflow-y: auto
+    transition: 0.4s
+    ul 
+        padding: 0
+        margin: 0
+        list-style: none
+        li 
+            position: relative 
+            a 
+                color: #fff
+                font-size: 13px
+                text-transform: uppercase
+                overflow: hidden
+                padding: 10px 22px 10px 15px
+                position: relative
+                text-decoration: none
+                width: 100%
+                display: block
+                outline: none
+                font-weight: 400
+
+            &:hover 
+                color: #fff
+            li 
+                padding-left: 30px
+
+        .menu-has-children 
+            i 
+                position: absolute
+                right: 0
+                z-index: 99
+                padding: 15px
+                cursor: pointer
+                color: #fff
+                &.fa-chevron-up 
+                    color: #5a1f5f
+
+            li a 
+                text-transform: none 
+
+        .menu-item-active 
+            color: #5a1f5f
+
+#mobile-body-overly 
+  width: 100%
+  height: 100%
+  z-index: 997
+  top: 0
+  left: 0
+  position: fixed
+  background: rgba(0, 0, 0, 0.7)
+  display: none
+
+body.mobile-nav-active 
+    overflow: hidden
+    #mobile-nav 
+        left: 0
+    #mobile-nav-toggle 
+        color: #fff
+#ToTop
+    display: none
+    position: fixed
+    bottom: 30px
+    cursor: pointer
+    right: 10px
+    z-index: 3
+    height: autosize(30,50)
+    width: autosize(30,50)
+    text-transform: uppercase
+    font-size: autosize(9,12)
+    color: #fff
+    background: rgba(0, 0, 0, .6)
+    border-radius: 5px
+    padding: 5px
+    transition: 0.6s
+    span
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+    &:hover
+        background: $color
+        transition: 0.6s
+        
